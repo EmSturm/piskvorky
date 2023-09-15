@@ -1,0 +1,8 @@
+.card {
+display: flex;
+flex-wrap: wrap;
+}
+
+.card_text {
+    flex-wrap: wrap;
+}
