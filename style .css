@@ -1,0 +1,12 @@
+
+.card {
+    display: flex;
+    background-color: #283e50;
+    color: #ffffff;
+}
+
+.card__heading {
+
+    font-family: Lobster , cursive;
+
+}
