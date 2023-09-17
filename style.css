@@ -2,18 +2,16 @@ body {
     background-image: linear-gradient(#615dad, #ffc8da);
     width: 100vw;
 }
-
 .container {
     margin-top: 10vw;
     max-width: 380px;
     margin: 60px auto;
-
 }
-
 .card__image {
     width: 100%;
     border-top-left-radius:  2%;
     border-top-right-radius: 2%;
+    display: block;
 }
 .card__text-container {
     background-color: #283e50;
@@ -27,14 +25,12 @@ body {
     font-family: Lobster , cursive;
     font-size: 3rem;
     margin: 0% 2% -2% 2%;
-
 }
 .card__description {
     font-family: sans-serif, Arial, Helvetica;
     font-size: 150%;
     margin-top: 10%;
 }
-
 .card__button {
     display: inline-block;
     flex-direction: column;
@@ -45,8 +41,7 @@ body {
     padding: 18px 0%;
     font-size: 17px;
     background-color:  #1fcca4;
-    color: white;
-  
+    color: white; 
 }
 .card__button .card__button--primary {
     width: 100%;
@@ -54,32 +49,26 @@ body {
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 } 
-
-/* @media (min-width: 360px) {
+@media (min-width: 360px) {
     .card__button .card__button--primary {
         margin-top: -12%;
     }
   }
-   */
-
 .card__button .card__button--primary:hover {
     content: '';
     background-color: #1cbb96;
 }
-
  .card__button .card__button--secondary {
     background-color: #0197f6;
     width: 100%;
     border-bottom: none;
     margin-bottom: -2.7%;
- }
-    
+ }   
  @media (min-width: 360px) {
     .card__button .card__button--secondary {
         margin-bottom: -10%;
     }
   }
-  
 .card__button .card__button--secondary:hover {
     content: '';    
     background-color: #0090e9;
