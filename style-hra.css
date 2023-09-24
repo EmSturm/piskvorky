@@ -1,5 +1,6 @@
 body {
     background: linear-gradient(#615dad, #ffc8da);
+    height: 120vh;
 }
 
 .container {
@@ -9,7 +10,7 @@ body {
 
 .card__heading {
     font-family: Lobster , cursive;
-    font-size: 20vmin;
+    font-size: 12vmin;
     color: white;
     text-align: center; 
 }
@@ -33,33 +34,33 @@ body {
 
 .play__home {
     background-color: #1fcca4;
-    padding: 3vmin;
     border-radius: 2vmin;
-    height: 7vmin;
     margin-right: -16vmin;
+    height: 4vmin;
+    padding: 2.7vmin;
 }
 
-.btn__home:hover {
-        content: '';
-        background-color: #1cbb96;
+.play__home:hover {
+    content: '';
+    background-color: #1cbb96;
     }
 
 .play__restart {
     background-color: #0197f6;  
-    padding: 3vmin;
     border-radius: 2vmin;
-    height: 7vmin;
+    height: 4vmin;
+    padding: 2.7vmin;
 }
 
-.btn__restart:hover {
+.play__restart:hover {
     content: '';    
     background-color: #0090e9;
     }
 
-.button__container {
-    background:linear-gradient(#cdb4dc7c, #ecc4d7);
+.button__row {
     display: flex;
-} 
+    background: linear-gradient(#cdb4dc7c, #f0e9ec);
+}
 
 .button:hover {
     background-color: #e8d1f57c;
