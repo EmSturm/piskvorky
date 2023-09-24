@@ -1,50 +1,79 @@
 body {
     background: linear-gradient(#615dad, #ffc8da);
-    
 }
 
 .container {
-    /* width: 100vw;
-    height: 100vh; */
     max-width: 80vmin;
-    
-
+    margin: 0 auto;
 }
 
 .card__heading {
     font-family: Lobster , cursive;
-    font-size: 6rem;
-    /* margin: 0% 2% -2% 2%; */
+    font-size: 20vmin;
     color: white;
-    text-align: center;
-    
-    
+    text-align: center; 
 }
 
-.button__container {
-    /* background:linear-gradient(#cdb4dc, #ecc4d7); */
+.play__menu {
     display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    /* flex-wrap: wrap; */
-    margin-left: 280px;
-    margin-right: 280px;
-    margin-top: 100px;
-    
-    /* flex-direction: column; */
+    justify-content: space-between;  
+}
+
+.play__circle     {
+    width: 7vmin;
+    margin-left: -17vmin;
+}
+
+.play__heading {
+    color: white;
+    font-family: sans-serif, 'Times New Roman', Times, serif;
+    font-size: 7vmin;
+    margin-right: 2vmin;
+}
+
+.play__home {
+    background-color: #1fcca4;
+    padding: 3vmin;
+    border-radius: 2vmin;
+    height: 7vmin;
+    margin-right: -16vmin;
+}
+
+.btn__home:hover {
+        content: '';
+        background-color: #1cbb96;
+    }
+
+.play__restart {
+    background-color: #0197f6;  
+    padding: 3vmin;
+    border-radius: 2vmin;
+    height: 7vmin;
+}
+
+.btn__restart:hover {
+    content: '';    
+    background-color: #0090e9;
+    }
+
+.button__container {
+    background:linear-gradient(#cdb4dc7c, #ecc4d7);
+    display: flex;
+} 
+
+.button:hover {
+    background-color: #e8d1f57c;
 }
 
 .button {
-    /* background: linear-gradient(#dfb7e5, #ffc8da); */
-    /* background-color: #d4b7cd; */
+    background-color: #d4b7cd;
     border: 2px solid #1c2d3b;
-    padding: 23px;
-    text-align: center;
-    
+    margin: 0 auto;
+    height: 8vmin;
+    width: 8vmin;
 }
-    /* width: 5px;   
-} */
-Výše uvedené kódy jsou pouze základem. Můžeš je upravit podle svých potřeb, přidávat další vlastnosti a styly podle požadavků na tvé rozvržení. CSS Grid a Flexbox jsou velmi výkonné nástroje pro vytváření mřížek a flexibilních rozložení ve webovém designu.
+
+
 
 
 
