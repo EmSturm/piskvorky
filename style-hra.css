@@ -22,7 +22,7 @@ body {
 
 .play__circle     {
     width: 7vmin;
-    margin-left: -17vmin;
+    margin-left: -22vmin;
 }
 
 .play__heading {
@@ -35,8 +35,8 @@ body {
 .play__home {
     background-color: #1fcca4;
     border-radius: 2vmin;
-    margin-right: -16vmin;
-    height: 4vmin;
+    margin-right: -20vmin;
+    height: 26px;
     padding: 2.7vmin;
 }
 
@@ -48,7 +48,7 @@ body {
 .play__restart {
     background-color: #0197f6;  
     border-radius: 2vmin;
-    height: 4vmin;
+    height: 26px;
     padding: 2.7vmin;
 }
 
@@ -60,6 +60,8 @@ body {
 .button__row {
     display: flex;
     background: linear-gradient(#cdb4dc7c, #f0e9ec);
+    box-sizing: inherit;
+  
 }
 
 .button:hover {
@@ -68,7 +70,7 @@ body {
 
 .button {
     background-color: #d4b7cd;
-    border: 2px solid #1c2d3b;
+    border: 1px solid #1c2d3b;
     margin: 0 auto;
     height: 8vmin;
     width: 8vmin;
