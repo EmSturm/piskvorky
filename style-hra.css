@@ -68,11 +68,12 @@ body {
 }
 
 .button {
-    background: linear-gradient(#cdb4dc7c, #f0e9ec); 
+    /* background: linear-gradient(#cdb4dc7c, #f0e9ec);  */
     border: 1px solid #1c2d3b;
     margin: 0 auto;
     height: 8vmin;
     width: 8vmin;
+    background-color:rgba(255, 255, 255, 0.5);
 }
 
 
