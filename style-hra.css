@@ -32,9 +32,9 @@ body {
     display: flex;
     text-align: center;
 }
-/* .play__circle     {
-    /* width: 7vmin;
-    margin-left: -22vmin; */
+.play__circle     {
+    margin-bottom: 11px;
+}
 
 
 .play__heading {
