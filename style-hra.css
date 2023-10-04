@@ -85,6 +85,19 @@ body {
     aspect-ratio: 1;
 }
 
+.board__field--circle {
+    background-image: url(circle_player.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.board__field--cross {
+    background-image: url(cross_player.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 
 
 
