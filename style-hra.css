@@ -98,18 +98,7 @@ body {
     background-position: center;
 }
 
-.play__cross {
-    margin-bottom: 11px;
-    background-image: url(cross.svg) ;
-    background-repeat: no-repeat;       
-}
 
-
-.play__circle {
-    margin-bottom: 11px;
-    background-image: url(circle.svg) ;
-    background-repeat: no-repeat;       
-}
 
 
 
