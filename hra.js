@@ -18,6 +18,7 @@ const makeCircle = (event) => {
         document.querySelector('#play__sign').alt = 'právě hraje křížek'
         document.querySelectorAll('.button').disabled = true
     }
+    event.target.disabled = true
 }
 
 // currentPlayer = 'cross';
